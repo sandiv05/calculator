@@ -22,6 +22,10 @@ def square(a):
     c=a*a;
     return c;
 
+def cube (a):
+    c=a*a*a;
+    return c;
+
 
 
 print('i am going to add two numbers')
@@ -57,6 +61,10 @@ print ('i am goig to divide two numbers')
 qoution=divide(2,2)
 print('the result is =',qoution)
 
-print ('i am going to square two numbers')
+print ('i am going to square one number')
 product=square(5)
 print('the result is=',product)
+
+print ('i am going to cube one number')
+product=cube(3)
+print ('the result is = ',product)

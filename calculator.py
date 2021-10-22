@@ -26,7 +26,9 @@ def cube (a):
     c=a*a*a;
     return c;
 
-
+def average (a,b):
+    c=(a+b)/2;
+    return c;
 
 print('i am going to add two numbers')
 sum = add (2,3)
@@ -68,3 +70,7 @@ print('the result is=',product)
 print ('i am going to cube one number')
 product=cube(3)
 print ('the result is = ',product)
+
+print('i am going to average two numbers')
+averageResult=average(4,2)
+print('the result is=',averageResult)

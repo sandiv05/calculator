@@ -18,6 +18,10 @@ def divide(a,b):
     c=(a/b);
     return c;
 
+def square(a):
+    c=a*a;
+    return c;
+
 
 
 print('i am going to add two numbers')
@@ -52,3 +56,7 @@ print("the result is = ",tamilPercentage)
 print ('i am goig to divide two numbers')
 qoution=divide(2,2)
 print('the result is =',qoution)
+
+print ('i am going to square two numbers')
+product=square(5)
+print('the result is=',product)
